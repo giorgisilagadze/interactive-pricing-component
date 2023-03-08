@@ -260,6 +260,10 @@ span {
 
 
 @media screen and (min-width: 1440px) {
+    body {
+        background-size: 100% 450px;
+    }
+
     .div-tittle {
         margin: 67px auto 0px;
         width: 393px;
@@ -377,6 +381,10 @@ span {
 
     button {
         margin: 33px 44px 0px 80px;
+    }
+
+    button:hover {
+        opacity: 0.8;
     }
 
     .div-circle-slider {
